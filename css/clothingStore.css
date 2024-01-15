@@ -1,0 +1,7 @@
+/*Diseño del body*/
+
+body {
+    max-height: 60vh;
+    overflow-y: auto;
+    margin: auto;
+}

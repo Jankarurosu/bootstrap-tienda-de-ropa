@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Detail</title>
+    <!-- Utiliza las CDNs de Bootstrap para los estilos y scripts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/clothingStore.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/logo.png" alt="logo" height="140" width="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto h5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/clothingStore.html">Camisas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vestidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Zapatillas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-4">
+        <div class="row align-items-center">
+            <div class="col col-12 col-sm-12 col-md-7 col-lg-7">
+                <img src="/images/products/camisa1.jpg" class="mx-auto d-block" alt="clothing1" width="50%"
+                    height="auto">
+            </div>
+            <div class="col col-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="row p-3">
+                    <div class="col col-12">
+                        <h2>Camisa de algodón</h2>
+                    </div>
+                    <div class="col col-12">
+                        <h3>S/ 30.00</h3>
+                    </div>
+                    <div class="col col-12">
+                        <p>Esta camisa presenta un atractivo color verde caqui que le confiere un toque de estilo sutil
+                            y versátil. La elección del algodón de llama peruana no solo aporta comodidad, sino también
+                            un toque distintivo gracias a su suavidad única. Una prenda que combina la elegancia del
+                            diseño con la autenticidad de los materiales, perfecta para diversas ocasiones.</p>
+                    </div>
+                    <div class="col col-12 col-som-12 col-md-6 col-lg-6 text-center">
+                        <div class="form-group">
+                            <select id="inputState" class="form-control">
+                                <option selected>Tallas</option>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                        <input type="number" class="form-control" id="cantidad" value="1" required>
+                    </div>
+                    <div class="col col-12 mt-5">
+                        <a href="#" class="btn btn-light btn-block">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light">
+        <!-- Utiliza la clase text-center para centrar el texto en el pie de página -->
+        <div class="container text-center mt-4 p-3">
+            <p>Copyright 2024©</p>
+            <p>Contáctanos al + 51 999-999-999</p>
+            <p>Envía un correo a xxxx@xxxxxx.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>
